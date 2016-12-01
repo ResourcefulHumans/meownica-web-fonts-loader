@@ -1,0 +1,23 @@
+{
+  "name": "meownica-web-fonts-loader",
+  "version": "1.0.0",
+  "description": "An asynchronous web-font loader based on code by meowni.ca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResourcefulHumans/meownica-web-fonts-loader.git"
+  },
+  "keywords": [
+    "webfont",
+    "loader"
+  ],
+  "author": "Monica | https://meowni.ca/about/",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ResourcefulHumans/meownica-web-fonts-loader/issues"
+  },
+  "homepage": "https://github.com/ResourcefulHumans/meownica-web-fonts-loader#readme"
+}
