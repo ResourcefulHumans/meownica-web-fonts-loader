@@ -25,5 +25,17 @@
   "devDependencies": {
     "semantic-release": "^6.3.2",
     "standard": "^8.6.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
   }
 }
