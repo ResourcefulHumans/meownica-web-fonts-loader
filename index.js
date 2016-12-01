@@ -1,3 +1,4 @@
+/* global XMLHttpRequest, document */
 export default (url) => {
   const xhr = new XMLHttpRequest()
   xhr.open('GET', url, true)

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/ResourcefulHumans/meownica-web-fonts-loader#readme",
   "devDependencies": {
-    "semantic-release": "^6.3.2"
+    "semantic-release": "^6.3.2",
+    "standard": "^8.6.0"
   }
 }
