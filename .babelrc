@@ -1,13 +1,5 @@
 {
   "presets": [
-    "es2015",
-    [
-      "env",
-      {
-        "targets": {
-          "browsers": ["last 1 version"]
-        }
-      }
-    ]
+    "es2015"
   ]
 }
