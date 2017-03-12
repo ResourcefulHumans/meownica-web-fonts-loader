@@ -9,3 +9,15 @@
 [![NPM](https://nodei.co/npm/meownica-web-fonts-loader.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/meownica-web-fonts-loader/)
 
 An asynchronous web-font loader based on code by meowni.ca: https://meowni.ca/posts/web-fonts/
+
+## Usage
+
+Install it via npm:
+
+    npm install --save meownica-web-fonts-loader
+    
+And use it in your JavaScript
+
+    import loadFont from 'meownica-web-fonts-loader'
+    
+    loadFont('//fonts.googleapis.com/css?family=Roboto+Slab:400,700', 'font-loaded')
