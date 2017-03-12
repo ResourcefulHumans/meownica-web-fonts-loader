@@ -18,6 +18,8 @@ Install it via npm:
     
 And use it in your JavaScript
 
-    import loadFont from 'meownica-web-fonts-loader'
+```js
+import loadFont from 'meownica-web-fonts-loader'
     
-    loadFont('//fonts.googleapis.com/css?family=Roboto+Slab:400,700', 'font-loaded')
+loadFont('//fonts.googleapis.com/css?family=Roboto+Slab:400,700', 'font-loaded')
+```
