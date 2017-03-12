@@ -21,5 +21,12 @@ And use it in your JavaScript
 ```js
 import loadFont from 'meownica-web-fonts-loader'
     
-loadFont('//fonts.googleapis.com/css?family=Roboto+Slab:400,700', 'font-loaded')
+loadFont('//fonts.googleapis.com/css?family=Roboto+Slab:400,700')
 ```
+
+### Advanced usage
+
+The `loadFont` method hhas two optional arguments:
+
+ 1. use `addClassOnLoad` to add the given class to the body element after the font has been loaded
+ 1. use `cb` to provide a callback that will be called after the font has been loaded, its argument will be the XMLHttpRequest object 
