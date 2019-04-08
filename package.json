@@ -30,7 +30,7 @@
     "babelify": "^7.3.0",
     "browserify": "^14.0.0",
     "husky": "^0.13.3-0",
-    "mocha": "^3.2.0",
+    "mocha": "^6.1.2",
     "mocha-phantomjs": "^4.1.0",
     "semantic-release": "^6.3.2",
     "standard": "^10.0.0",
